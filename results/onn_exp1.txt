@@ -1,0 +1,13 @@
+trained with ideal splitters, final loss 0.299; clean test accuracy 0.919
+
+accuracy vs laser power per inference (detector noise 1 uW rms):
+splitter                        0.001mW    0.010mW    0.100mW    1.000mW   10.000mW   light left after 32 splitters
+ideal                             0.141      0.686      0.919      0.919      0.919   1.00e+00
+commercial 0.98                   0.122      0.446      0.908      0.918      0.919   5.24e-01
+best 3D-verified MMI 0.922        0.096      0.145      0.636      0.889      0.893   7.44e-02
+our 2D MMI 0.898                  0.094      0.118      0.370      0.857      0.873   3.20e-02
+our 3D MMI 0.766                  0.093      0.097      0.098      0.134      0.329   1.97e-04
+
+static fabrication errors, ideal loss (mean of 10 chips):
+phase_sigma  0.01: 0.919  0.05: 0.902  0.1: 0.838  0.2: 0.572
+eta_sigma    0.01: 0.919  0.02: 0.913  0.05: 0.870  0.1: 0.705
